@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:text="TextView" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_alignBaseline="@+id/textView1" android:layout_alignBottom="@+id/textView1" android:layout_toRightOf="@+id/textView1" android:layout_marginLeft="24dp" android:id="@+id/score"></TextView>
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/Message" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:layout_marginTop="42dp" android:text="Times Up !"></TextView>
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:text="Your Score is :" android:id="@+id/textView1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_alignParentBottom="true" android:layout_alignParentLeft="true" android:layout_marginLeft="22dp" android:layout_marginBottom="133dp"></TextView>
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:text="TextView" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_below="@+id/Message" android:layout_centerHorizontal="true" android:layout_marginTop="111dp" android:id="@+id/result"></TextView>
+    
+</RelativeLayout>
