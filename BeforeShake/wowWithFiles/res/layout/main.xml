@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/name" android:gravity="left">
+    <Button android:layout_height="wrap_content" android:layout_width="70dp" android:id="@+id/reset" android:text="Reset" android:layout_alignBaseline="@+id/submit" android:layout_alignBottom="@+id/submit" android:layout_toLeftOf="@+id/textView2"></Button>
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/shuffle" android:text="Shuffle" android:layout_alignBaseline="@+id/submit" android:layout_alignBottom="@+id/submit" android:layout_toRightOf="@+id/textView2"></Button>
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="TextView" android:layout_alignParentTop="true" android:layout_alignParentLeft="true" android:id="@+id/timerText"></TextView>
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:text="TextView" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:id="@+id/score"></TextView>
+    <Button android:text="Submit" android:id="@+id/submit" android:layout_width="70dp" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_marginBottom="29dp"></Button>
+    <TextView android:id="@+id/textView2" android:layout_width="150dp" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:layout_above="@+id/shuffle" android:layout_toRightOf="@+id/timerText" android:layout_marginBottom="25dp"></TextView>
+    <TextView android:visibility="visible" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/textView1" android:layout_width="200dp" android:layout_above="@+id/textView2" android:layout_centerHorizontal="true" android:layout_marginBottom="20dp"></TextView>
+</RelativeLayout>
