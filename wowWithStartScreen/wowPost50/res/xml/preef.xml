@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+      <CheckBoxPreference android:key="Music" android:title="Background Music"/>
+    <CheckBoxPreference android:key="Vibrate" android:title="Vibration"/>
+    <EditTextPreference android:key="Name" android:title="User Name"/>
+</PreferenceScreen>

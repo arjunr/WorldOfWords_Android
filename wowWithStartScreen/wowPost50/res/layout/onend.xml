@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:id="@+id/end" android:gravity="center_horizontal">
+    <TextView 
+    		android:textAppearance="?android:attr/textAppearanceLarge" 
+    		android:id="@+id/result" 
+    		android:text="result" 
+    		android:layout_width="wrap_content" 
+    		android:layout_height="wrap_content" 
+    		android:layout_below="@+id/Message" 
+    		android:layout_centerHorizontal="true" 
+    		android:layout_marginTop="26dp">
+    </TextView>
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/Message" android:text="Times Up!" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:layout_marginTop="19dp"></TextView>
+    <Button android:id="@+id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Try again" android:layout_below="@+id/missed" android:layout_centerHorizontal="true"></Button>
+    <Button android:id="@+id/button2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Missed words" android:layout_below="@+id/button1" android:layout_centerHorizontal="true"></Button>
+    <Button android:id="@+id/highScore" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="High Score" android:layout_below="@+id/button2" android:layout_centerHorizontal="true" android:layout_marginBottom="16dp"></Button>
+    <Button android:id="@+id/missed" android:layout_width="wrap_content" android:layout_height="0dp" android:text="View Missed Words" android:layout_below="@+id/textView1" android:layout_centerHorizontal="true" android:layout_marginTop="16dp" android:visibility="invisible"></Button>
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/word" android:text="word" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/result" android:layout_centerHorizontal="true" android:layout_marginTop="20dp"></TextView>
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/textView1" android:text="Your Score is :" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/word" android:layout_centerHorizontal="true" android:layout_marginTop="14dp"></TextView>
+    
+</RelativeLayout>
